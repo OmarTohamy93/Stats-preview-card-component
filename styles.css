@@ -45,7 +45,7 @@ body {
 }
 
 main {
-    width: 90%;
+    width: 50%;
     height: auto;
     background-color: var(--Dark-desaturated-blue-card-background);
     margin: 250px auto;
@@ -99,6 +99,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 5px;
+
 }
 
 .left-stats-container h2,
@@ -126,7 +127,8 @@ main {
     height: auto;
     background: linear-gradient(var(--Soft-violet),
             var(--Dark-desaturated-blue-card-background)),
-        url(./assets/images/image-header-desktop.jpg);
+        url(./assets/images/image-header-desktop.jpg) no-repeat;
     background-blend-mode: multiply;
     border-radius: 5px;
+    background-size: cover;
 }
